@@ -6,10 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./eventbinding.component.css']
 })
 export class EventbindingComponent implements OnInit {
+  public greetings="";
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+  message(message: any){
+    console.log(message);
+  }
+
+  onClick(){
+    this.greetings="welcome to Angular 12"
   }
 
 }

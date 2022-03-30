@@ -1,1 +1,8 @@
 <p>eventbinding works!</p>
+<br>
+<button (click)="onClick()"
+type="button">CLick me</button>
+<h2>{{greetings}}</h2>
+<br><br>
+<input #msg type="text">
+<button (click)="message(msg.value)" type="button">Welcome </button>
