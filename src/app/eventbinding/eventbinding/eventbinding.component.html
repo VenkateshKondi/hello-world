@@ -4,5 +4,14 @@
 type="button">CLick me</button>
 <h2>{{greetings}}</h2>
 <br><br>
+<p>This is Template Reference variable!</p>
 <input #msg type="text">
 <button (click)="message(msg.value)" type="button">Welcome </button>
+<br>
+<br>
+
+<input [(ngModel)]=data type="text">
+<button type="button">Click Here</button>
+<br>
+<br>
+{{data}}

@@ -9,7 +9,7 @@ import { SampleModule } from './sample/sample.module';
 import { Sample2Module } from './sample2/sample2.module';
 import { HomeComponent } from './home/home.component';
 import { EventbindingModule } from './eventbinding/eventbinding.module';
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,8 @@ import { EventbindingModule } from './eventbinding/eventbinding.module';
     BrowserModule,
     SampleModule,
     Sample2Module,
-    EventbindingModule
+    EventbindingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

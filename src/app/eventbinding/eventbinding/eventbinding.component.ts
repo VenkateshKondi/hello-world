@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventbindingComponent implements OnInit {
   public greetings="";
-
+  public data="";
   constructor() { }
 
   ngOnInit(): void {
@@ -19,5 +19,5 @@ export class EventbindingComponent implements OnInit {
   onClick(){
     this.greetings="welcome to Angular 12"
   }
-
+  
 }
